@@ -10,7 +10,7 @@ import { ProductManager } from "./Produto"
 import { Diretor } from "./Tipos"
 import { User } from "./Tipos"
 import { UserManager } from "./Usuario"
-import { exibirInformacoes } from './UsuarioDiretor';
+import { exibirInformacoes } from './UsuarioDiretor'
 
 
 function calcularMedia(valor1: number, valor2: number) {
@@ -101,7 +101,7 @@ const lista: (User | Diretor)[] = [
       salario: 5000,
       nivelComissionamento: 10,
   },
-];
+]
 
 // Exibindo informações
 exibirInformacoes(lista)

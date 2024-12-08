@@ -19,6 +19,6 @@ export class UserManager {
         this.users.forEach((user) => {
             const salarioInfo = user.salario !== undefined ? `R$ ${user.salario}` : "N/A"
             console.log(`${user.nome}, ${user.idade} anos, ${user.ocupacao}, salário ${salarioInfo}`)
-        });
+        })
     }
 }
