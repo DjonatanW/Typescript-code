@@ -23,3 +23,7 @@ turma.adicionarAluno(aluno)
 turma.adicionarAluno(aluno2)
 turma.adicionarAluno(aluno3)
 turma.listarAlunos()
+
+
+console.log('Aluno:', aluno)
+console.log('Turma:', turma)
