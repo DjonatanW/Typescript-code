@@ -1,4 +1,6 @@
-import { ContaCorrente, ContaPoupanca } from "./ContaBancaria";
+import { ContaCorrente } from "./ContaCorrente";
+import { ContaPoupanca } from "./ContaPoupanca";
+
 
 const contaCorrente = new ContaCorrente("12345-6", 1000, 500);
 const contaPoupanca = new ContaPoupanca("54321-0", 2000);
