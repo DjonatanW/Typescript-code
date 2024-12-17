@@ -4,8 +4,6 @@ import { comments } from "../database/comment"
 import { Comment } from "../models/Comment"
 import { ProductType } from "../Types"
 
-
-
 export class Product {
   private _id: string = randomUUID()
 
