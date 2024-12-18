@@ -2,7 +2,7 @@ import { randomUUID } from "crypto"
 import { Product } from "./Product"
 
 export class User{
-  private _id: string = randomUUID()
+  private readonly _id: string = randomUUID()
   private _cart: Product[] = []
 
   constructor(

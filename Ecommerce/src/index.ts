@@ -1,6 +1,7 @@
 import { Product } from "./models/Product";
 import { User } from "./models/User";
 import { ProductType } from "../src/Types/index"
+import { DiscountedProduct } from "./models/DiscountedProduct";
 
 const user1 = new User('Djonatan', 'djonatan', 'dj@gmail.com')
 const user2 = new User('Aleatório', 'Ale', 'Ale@gmail.com')
@@ -22,3 +23,11 @@ produto1.addComment('teste de comentario',user1)
 produto1.show()
 
 user1.showProduct()
+
+produto1.addRate(4, user1)
+produto1.addRate(3, user2)
+
+produto1.show()
+const discountedProduct = new DiscountedProduct('Banana', 10, 5)
+console.log(discountedProduct.show());
+
